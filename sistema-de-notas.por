@@ -92,16 +92,16 @@ programa {
             se (notasocio < 0 ou notafilo >= 11) {
                 escreva("\nNota inválida! Por favor, insira uma nota entre 0 e 10.\n")
             }
-        } enquanto (notasocio < 0 ou notafilo >= 11) 
+        } enquanto (notasocio < 0 ou notasocio >= 11) 
 
         media = (notaport + notamat + notafis + notahist + notageo + notaquim + notabiol + notafilo + notasocio) / 9
         media = Mat.arredondar(media, 2)
 
         escreva("\nCalculando a média final...Pressione ENTER para continuar.\n")
         leia(pausa)
-        escreva("\nA média final de ", nome, "é: ", media)
+        escreva("\nA média final de ", nome, " é: ", media)
 
-        se (media > 7) {
+        se (media >= 7) {
             escreva("\nSituação: APROVADO!\n")
         }
         senao {
