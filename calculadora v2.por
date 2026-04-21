@@ -57,7 +57,6 @@ programa {
             escreva(n1, " / ", n2, " = ", resultado, "\n")
           }
       }
-    //Coloquei o nome para o usuário identificar melhor os números.
       senao se (opcao == 5) {
         escreva("\nDigite o número da base: ")
         leia(n1)
