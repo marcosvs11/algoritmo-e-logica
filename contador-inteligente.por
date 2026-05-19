@@ -10,7 +10,7 @@ programa {
         escreva("Digite o passo entre os números: ")
         leia(p)
 
-        para (i = ini; i <= f; i = ini + p) {
+        para (ini + 1; ini <= f; i = ini + p) {
             escreva(i)
         }
     }

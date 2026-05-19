@@ -1,4 +1,4 @@
-    //Coloque um procedimento para a validação das notas. notas < 0 ou >= 11
+    //Coloquei um procedimento para a validação das notas. notas < 0 ou >= 11
 programa {
     inclua biblioteca Matematica --> Mat
     funcao LerNota(cadeia materia) {
@@ -23,7 +23,7 @@ programa {
 
         escreva("Digite o nome do aluno: ")
         leia(nome)
-        escreva("\nOlá, ", nome, "! Vamos calcular sua média final.")
+        escreva("\nOlá, ", nome, "! Vamos calcular sua média final.\n")
         
             notaport = LerNota ("Português")
             notamat = LerNota ("Matemática")

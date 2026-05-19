@@ -1,22 +1,31 @@
 programa {
-    funcao exibirMenu() {
-        escreva("\n====================\n")
-        escreva("   MENU VIEIRA")
-        escreva("\n====================\n")
+    funcao inteiro fatorial(inteiro a) {
+        inteiro i = 1
+        inteiro resultado = 1
+        i = a
 
-        escreva("\n1 - Opção A")
-        escreva("\n2 - Opção B")
-        escreva("\n0 - Sair")
+        enquanto (i >= 1) {
+            resultado = resultado * i
+            se (i == 1){
+                escreva(i, " = ")
+            }
+            senao {
+                escreva(i, " x ")
+            }
+            i = i - 1
+        }
+        escreva(resultado)
+        retorne resultado
+
     }
-
     funcao inicio() {
-        inteiro opcao
-        faca {
-            exibirMenu()
-            escreva("\nDigite sua opção: ")
-            leia (opcao)
-        } enquanto (opcao != 0)
-        escreva("Saindo...")
+       
+       inteiro n
+
+       escreva("Digite um número: ")
+       leia(n)
+       escreva("O fatorial do número digitado é: ")
+       fatorial(n)
 
     }
 }
