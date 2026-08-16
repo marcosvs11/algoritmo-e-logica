@@ -2,11 +2,7 @@ programa {
     funcao inicio() {
 
         inteiro opcao 
-<<<<<<< HEAD
         real saldo = 0, dinheiro = 0, saque = 0
-=======
-        real saldo, dinheiro, saque
->>>>>>> 60e0f4a78b20cc3a7daa6d4c9f038a2325b83820
 
         faca {
             escreva("\n=======================================\n")
@@ -29,15 +25,12 @@ programa {
             senao se (opcao == 2) {
                 escreva("Digite o valor do depósito: ")
                 leia(dinheiro)
-<<<<<<< HEAD
-                saldo = saldo + dinheiro
-=======
-                saldo = (0 + dinheiro) - saque
->>>>>>> 60e0f4a78b20cc3a7daa6d4c9f038a2325b83820
+
                 se (dinheiro <= 0) {
                     escreva("O valor desejado para depósito é incompatível! Tente novamente.\n")
                 }
                 senao {
+                    saldo = saldo + dinheiro
                     escreva("O valor depositado foi de R$ ", dinheiro)
                     escreva("\nSeu saldo atualizado é de R$ ", saldo, "\n")
                 }
@@ -50,11 +43,7 @@ programa {
                     escreva("O valor desejado não será possível ser sacado! Tente novamente.")
                 }
                 senao se (saque <= saldo) {
-<<<<<<< HEAD
                     saldo = saldo - saque
-=======
-                    saldo = dinheiro - saque
->>>>>>> 60e0f4a78b20cc3a7daa6d4c9f038a2325b83820
                     escreva("O valor sacado foi de R$ ", saque)
                     escreva("\nSeu saldo atualizado é de R$ ", saldo, "\n")
                 }
@@ -65,18 +54,10 @@ programa {
                 senao {
                     escreva("Valor incopatível! Tente novamente.")
                 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 60e0f4a78b20cc3a7daa6d4c9f038a2325b83820
             }
             senao se (opcao == 0) {
                 escreva("\nSaindo...\n")
             }
-<<<<<<< HEAD
-            
-=======
->>>>>>> 60e0f4a78b20cc3a7daa6d4c9f038a2325b83820
         } enquanto (opcao != 0)
     } 
 } 
