@@ -1,51 +1,63 @@
-# Algoritmo e Lógica
+# Algoritmos e Lógica
 
-Repositório dedicado aos meus estudos de lógica de programação e desenvolvimento de algoritmo durante a graduação em Engenharia de Software.
+Repositório dedicado aos meus estudos de lógica de programação e desenvolvimento de algoritmos durante a graduação em Engenharia de Software.
 
-## Conteúdo
+## Objetivo
 
-Os conteúdos deste repositório foram desenvolvidos ao longo do meu processo de aprendizagem, começando pelos fundamentos de lógica de programalçao e evoluindo para estruturas e problemas mais elaborados.
+Construir uma base sólida em lógica de programação e resolução de problemas antes de avançar para projetos e tecnologias mais complexas.
 
-### Fundamentos
+Este repositório também funciona como registro da minha evolução durante esse processo de aprendizagem.
 
-- Variáveis e tipos de dados.
-- Entrada e saída de dados.
-- Operadores.
-- Estruturas condicionais.
-- Estruturas de repitação.
-- Vetores.
-- Matrizes.
-- Funções.
+## Conteúdos praticados
+
+- Variáveis e tipos de dados
+- Entrada e saída de dados
+- Operadores
+- Estruturas condicionais
+- Estruturas de repetição
+- Vetores
+- Matrizes
+- Funções
+- Validação de dados
+
+## Estrutura
+
+```text
+algoritmos-e-logica/
+├── exercicios/
+├── projetos/
+│   └── README.md
+└── README.md
+```
 
 ## Exercícios
 
-A pasta exercícios reúne exercícios utilizados para praticar e consolidar os fundamentos de algoritmos e lógica de programação.
-Os exercícios foram desenvolvidos principalmente em Portugol, permitindo concentrar o aprendizado na lógica antes de avanças para linguagens e ferramentas mais complexas.
+A pasta [`exercicios`](./exercicios) reúne exercícios utilizados para praticar e consolidar os fundamentos de algoritmos e lógica de programação.
+
+Os exercícios foram desenvolvidos principalmente em Portugol, permitindo concentrar o aprendizado na resolução de problemas antes de avançar para linguagens e ferramentas mais complexas.
 
 ## Projetos
 
-A pasta projetos reúne pequenos programas desenvolvidos para aplicar os conceitos estudados em situações mais próximas de problemas reais
+A pasta [`projetos`](./projetos) reúne pequenos programas desenvolvidos para aplicar os conceitos estudados em situações mais próximas de problemas reais.
 
 Entre eles:
-- Calculadora.
-- Calculadora de IMC.
-- Contador Inteligente.
-- Conversor de Moedas.
-- Simulador Bancário.
-- Sistema de Notas.
-- Verificador de Triângulos.
 
-## Objetivos
+- Calculadora
+- Calculadora de IMC
+- Contador Inteligente
+- Conversor de Moedas
+- Simulador Bancário
+- Sistema de Notas
+- Verificador de Triângulos
 
-Construir uma base sólida de lógica de programação e resolução de problemas como parte da minha formação em Engenharia de Software.
+A documentação de cada projeto está disponível em [`projetos/README.md`](./projetos/README.md).
 
-Este repositório também serve como registro da minha evolução durante esse processo de aprendizagem.
+## Tecnologias e ferramentas
 
-## Tecnologias
-
-- Portugol.
-- Git.
-- GitHub.
+- Portugol
+- Git
+- GitHub
 
 ---
-**Em constante evolução**
+
+**Este repositório representa uma etapa inicial da minha formação em programação e permanece disponível como registro da evolução dos fundamentos.**
